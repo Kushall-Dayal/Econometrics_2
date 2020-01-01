@@ -1,10 +1,5 @@
 ---
-  title: "Business Analytics Project"
-author: "Group2-Dakshata,Jackson,Kushall,Ritumbhara,Xingmin"
-output: word_document
-editor_options: 
-  chunk_output_type: console
----
+
 ```{r}  
 #==========================================================
 ## SET UP R MARKDOWN
@@ -12,10 +7,6 @@ editor_options:
 
 # Clearing the working space at the start of every R session
 rm(list = ls())
-
-# Setting the directory
-setwd("/Users/jiach/Desktop")
-getwd()
 
 # Install/Load the required libraries 
 install.packages("stargazer") 
